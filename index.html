@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <container>
+        <sidebar>
+            <img id="logo" src="./images/logo.svg" alt="Logo">
+            <fieldset id="my-profile">
+                <legend>My Profile</legend>
+                <ul>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>History</li>
+                    <li>Tasks</li>
+                    <li>Communities</li>
+                </ul>
+            </fieldset>
+            <fieldset id="menu">
+                <legend>Menu</legend>
+                <ul>
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </fieldset>
+        </sidebar>
+        <topbar>
+            <input type="search" placeholder="Search for a project">
+            <button id="notif-icon"></button>
+            <div id="profile-chooser">
+                <img id="profile-photo" src="./images/profile-photo.jpg">
+                <p>User Name</p>
+                <img id="down-arrow" src="./images/Down-arrow.svg">
+            </div>
+        </topbar>
+        <main>
+            <projects>
+                <h1>Home</h1>
+                <cards>
+                    <card></card>
+                    <card></card>
+                    <card></card>
+                    <card></card>
+                    <card></card>
+                </cards>
+                
+
+            </projects>
+            <announcements>
+                <card></card>
+            </announcements>
+            <trending>
+                <card></card>
+            </trending>
+        </main>
+    </container>
+</body>
+</html>
